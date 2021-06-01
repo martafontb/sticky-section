@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&display=swap');
 
-/* .dark {
-	background:#263238;
-}
-
-.dark h1 {
-	color:#ccc;
-} */
 
 body {
 	font-family: 'Barlow Semi Condensed', sans-serif;
@@ -17,52 +10,52 @@ body {
 .contentBlock {
 	height:100vh;
 	width:100%;
-	background:rgb(0, 0, 0, 0.1);
+	/* background:rgb(0, 0, 0, 0.1); */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
 }
 
 .conentScroll {
 	max-width: 50%;
+	background-color:#fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 
 .box {
 	width:50%;
-	height:100%;
+	height:100vh;
 	position:absolute;
 	left:0px;
-	background:rgb(0, 250, 100, 0.3);
-	clip-path: path('M717.68,291.43c-4.24-60.81-59.37-106.4-131.25-115.1l.38-.23L581.19,161l-.29.18-.26.15a111,111,0,0,0,6.27-44.73c-5.19-74.26-86.22-125.85-181-115.25-74.63,8.35-135.5,52.79-155.49,107.55l0-.07-.16-.36-11.37,8.4.16.36.13.27a209.25,209.25,0,0,0-71.67-4.07C72.71,124.06.08,192.85,5.26,267.1c2.1,30.08,16.65,56.44,39.53,76.46h-.33l-.34,16.66h.48C14.81,388.12-2.35,424.14.26,461.56c5.18,74.25,86.21,125.85,181,115.24a218,218,0,0,0,70.38-20.1l0,.17-.08.4,12.72,4.26.09-.39v0c31.35,40.64,91.39,64.2,158.33,56.72,94.78-10.61,167.41-79.4,162.23-153.65a104.86,104.86,0,0,0-1.74-13l.34.34,8.21-13-.43-.44C667.83,416.42,722.19,356,717.68,291.43');
+	background-image: url(cloud.png);
+	background-size:cover;
+	background-repeat: no-repeat;
 }
 
 .img {
 	width:50%;
-	height:100%;
+	height:100vh;
 	background-image: url(Discovering\ New\ Brands.png);
-	background-size:contain;
+	background-size:cover;
 	background-repeat: no-repeat;
 	position:absolute;
 	right:0px;	
 }
 
-/* .pin-spacer {
-	background:rgba(252, 142, 228, 0.3);
-} */
-
-/* .contentBlock:nth-child(odd) {
-	background:rgb(0, 0, 0, 0.3);
-} */
-
 .contentBlock.boxContainer {
-	background:rgb(255, 100, 0, 0.2);
 	z-index:2;
+
 }
 
 .contentBlock p {
 	max-width: 250px;
+	top:50%;
 	text-align:center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }

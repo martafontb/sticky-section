@@ -1,7 +1,7 @@
 ScrollTrigger.create({
 		trigger:".box",
 		start:"top top",
-		end:"+=1600",
+		end:"+=140%",
 		markers:true,
 		pin:true
 })
@@ -9,7 +9,7 @@ ScrollTrigger.create({
 ScrollTrigger.create({
 	trigger:".img",
 	start:"top top",
-	end:"+=1600",
+	end:"+=140%",
 	markers:true,
-	pin:true
+	pin:true	
 })
